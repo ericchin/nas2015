@@ -1,0 +1,3 @@
+APACHELOG %{IPORHOST:clientip} (?:%{WORD:remoteLogName}|-) (?:%{WORD:remoteUserId}|-) \[%{HTTPDATE:timestamp}\] %{WORD:httpmethod} %{GREEDYDATA:AbsoluteLocalPath} \"%{WORD:httpmethod} (?:%{URIPATHPARAM:relativeRequestPath}|/&|/https&) HTTP/%{NUMBER:httpversion}\" %{NUMBER:response} (?:%{NUMBER:bytes:int}|-) \"(?:%{DATA:referrer}|-)\" \"(?:%{DATA:UserAgent}|-)\" \"(?:%{DATA:RelativePath}|-)\"  \"(?:%{DATA:QueryString}|-)\" %{NUMBER:TimeInSeconds:int} %{NUMBER:TimeInMicroSeconds:int}
+
+CUSTOMDATE %{MONTHDAY}/%{MONTH}/%{YEAR}
