@@ -5,6 +5,8 @@ Copy the conf files in the respective folders over to your logstash folder and s
 
 `./bin/logstash agent -f logstash.conf`
 
+The patterns directory contains the patterns that are referenced from the logstash configuration files. Place these files in the patterns directory.
+
 ## Apache Configuration
 Add the below in the log\_config\_module with the other other log configurations.
 
