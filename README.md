@@ -1,4 +1,4 @@
-# Liferay NAS 2015 - ELK: Unlocking YourData's Potential
+# Liferay NAS 2015 - ELK: Unlocking Your Data's Potential
 
 ## Logstash Configuration
 Copy the conf files in the respective folders over to your logstash folder and start up logstash using the below command (run this for each of the different logstash configuration files).
